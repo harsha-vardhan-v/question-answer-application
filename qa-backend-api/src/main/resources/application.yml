@@ -1,2 +1,13 @@
 server:
   port: 8080
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/question_answer"
+    username: postgres
+    password: toor
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
