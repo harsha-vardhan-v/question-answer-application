@@ -1,5 +1,6 @@
 import React from "react"
 import Searchbar from "./Searchbar"
+import QuestionsList from "./QuestionsList"
 
 const Home = () => {
     return (
@@ -11,6 +12,8 @@ const Home = () => {
             }}>
                 <Searchbar></Searchbar>
             </header>
+
+            <QuestionsList></QuestionsList>
             
         </div>
     )

@@ -1,5 +1,8 @@
 server:
   port: 8080
+app:
+  cors:
+    allowedOrigins: http://localhost:3000/
 spring:
   datasource:
     url: "jdbc:postgresql://localhost:5432/question_answer"
